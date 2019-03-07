@@ -1,0 +1,16 @@
+{
+    "name": "yang-xiao-hui/project",
+    "description": "is composer project",
+    "minimum-stability": "dev",
+    "require":{
+         "composer-plugin-api": "1.1.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "YangXiaoHui\\Install\\":["src/Install/"]
+        }
+    },
+    "scripts":{
+        "post-package-install":"YangXiaoHui\\Install\\ProjectInstall::install"
+    }
+}
