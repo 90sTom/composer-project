@@ -3,7 +3,8 @@
     "description": "is composer project",
     "minimum-stability": "dev",
     "require":{
-         "composer-plugin-api": "1.1.0"
+         "composer-plugin-api": "1.1.0",
+         "yang-xiao-hui/framework":"~2.0@dev"
     },
     "autoload":{
         "psr-4":{
