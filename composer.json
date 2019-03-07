@@ -2,7 +2,7 @@
     "name": "yang-xiao-hui/project",
     "description": "is composer project",
     "minimum-stability": "dev",
-    "type":"yang-xiao-hui",
+    "type":"yang-project",
     "require":{
          "composer-plugin-api": "1.1.0",
          "yang-xiao-hui/framework":"~2.0@dev"
@@ -14,7 +14,7 @@
     },
     "extra": {
         "class": "YangXiaoHui\\Install\\ProjectInstall",
-        "include-path":""
+        "include-path":"tests"
     }
     
 }
