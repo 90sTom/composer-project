@@ -16,6 +16,11 @@ use Composer\Script\Event;
 class ProjectInstall
 {
     public static function install(Event $event){
-       
+        $io = $event->getIO();
+        $io->write("install start");
+        $compopser = $event->getComposer();
+        $rootpack = $compopser->getPackage();
+        $io->write("packages：");
+        $io->write(var_export($rootpack->getNames(), true));
     }
 }
