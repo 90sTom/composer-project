@@ -4,13 +4,11 @@
     "minimum-stability": "dev",
     "type":"yang-project",
     "require":{
-         "composer-plugin-api": "1.1.0",
-         "composer/composer":"1.8.4",
-         "yang-xiao-hui/framework":"~2.0@dev"
+         "yang-xiao-hui/framework":"~2.0.*@dev"
     },
     "autoload":{
         "psr-4":{
-            "YangXiaoHui\\Install\\":["src/"]
+            "YangXiaoHui\\Project\\":["src/"]
         }
     },
     "extra": {
