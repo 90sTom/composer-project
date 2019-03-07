@@ -12,6 +12,7 @@
         }
     },
     "scripts":{
-        "post-package-install":"YangXiaoHui\\Install\\ProjectInstall::install"
+        "post-package-install":"YangXiaoHui\\Install\\ProjectInstall::install",
+        "post-package-update":"YangXiaoHui\\Install\\ProjectInstall::install"
     }
 }
