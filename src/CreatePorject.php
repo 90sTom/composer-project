@@ -8,7 +8,7 @@
 
 namespace YangXiaoHui\Install;
 use Composer\Package\PackageInterface;
-use Composer\Repository\InstalledRepositoryInterface;
+use Composer\Installer\LibraryInstaller;
 /**
  * Description of CreatePorject
  *
