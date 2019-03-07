@@ -2,17 +2,19 @@
     "name": "yang-xiao-hui/project",
     "description": "is composer project",
     "minimum-stability": "dev",
+    "type":"yang-xiao-hui",
     "require":{
          "composer-plugin-api": "1.1.0",
          "yang-xiao-hui/framework":"~2.0@dev"
     },
     "autoload":{
         "psr-4":{
-            "YangXiaoHui\\Install\\":["src/Install/"]
+            "YangXiaoHui\\Install\\":["src/"]
         }
     },
-    "scripts":{
-        "post-package-install":"YangXiaoHui\\Install\\ProjectInstall::install",
-        "post-package-update":"YangXiaoHui\\Install\\ProjectInstall::install"
+    "extra": {
+        "class": "YangXiaoHui\\Install\\ProjectInstall",
+        "include-path":""
     }
+    
 }
