@@ -4,12 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e61f876fa2c0f90a6a7b28bd47d01255",
-    "packages": [],
+    "content-hash": "28115d4fdae5189083194365c688413f",
+    "packages": [
+        {
+            "name": "yang-xiao-hui/framework",
+            "version": "2.0.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/90sTom/composer-framework.git",
+                "reference": "7643112fa86f6817efd399238be20409426f73b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/90sTom/composer-framework/zipball/7643112fa86f6817efd399238be20409426f73b8",
+                "reference": "7643112fa86f6817efd399238be20409426f73b8",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "YangXiaoHui\\": [
+                        "src/"
+                    ]
+                },
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "/src/bootstart.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "mit"
+            ],
+            "authors": [
+                {
+                    "name": "Yang",
+                    "email": "2781568757@qq.com"
+                }
+            ],
+            "description": "is composer framework project",
+            "time": "2019-03-07T08:59:12+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "yang-xiao-hui/framework": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
