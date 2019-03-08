@@ -8,12 +8,9 @@
     },
     "autoload":{
         "psr-4":{
-            "YangXiaoHui\\Project\\":["src/"]
+            "App":"application"
         }
     },
-    "extra": {
-        "class": "YangXiaoHui\\Install\\ProjectInstall",
-        "include-path":"tests"
-    }
+    "extra": {}
     
 }
