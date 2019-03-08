@@ -4,7 +4,8 @@
     "minimum-stability": "dev",
     "type":"yang-project",
     "require":{
-         "yang-xiao-hui/framework":"2.0.*@dev"
+        "yang-xiao-hui/framework":"2.0.*@dev",
+        "yang-xiao-hui/install":"*"
     },
     "autoload":{
         "psr-4":{
