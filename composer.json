@@ -5,7 +5,7 @@
     "type":"yang-project",
     "require":{
         "yang-xiao-hui/framework":"2.0.*@dev",
-        "yang-xiao-hui/install":"*"
+        "yang-xiao-hui/install":"0.1.*@dev"
     },
     "autoload":{
         "psr-4":{
